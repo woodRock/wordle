@@ -111,7 +111,7 @@ def evaluate_guess(guess, target):
     """
     feedback = torch.zeros_like(guess)
 
-    # 
+    # Move tensors to the same device
     guess = guess.to(target.device)
 
     # Step 1: Identify correct positions

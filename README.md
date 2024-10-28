@@ -13,6 +13,12 @@ $ git clone https://github.com/woodRock/wordle.git
 $ cd wordle
 ```
 
+Install the necessary packages.
+
+```bash
+$ pip install -r requirements.txt
+```
+
 Then run the following command.
 
 ```bash
